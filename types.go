@@ -393,7 +393,7 @@ func (sc SymbolCode) MarshalJSON() (data []byte, err error) {
 
 // EOSSymbol represents the standard EOS symbol on the chain.  It's
 // here just to speed up things.
-var FSSymbol = Symbol{Precision: 8, Symbol: "FS"}
+var EOSSymbol = Symbol{Precision: 8, Symbol: "FS"}
 
 // REXSymbol represents the standard REX symbol on the chain.  It's
 // here just to speed up things.
@@ -427,8 +427,8 @@ func NewAssetFromString(in string) (out Asset, err error) {
 	return
 }
 
-func NewFSAssetFromString(input string) (Asset, error) {
-	return NewFixedSymbolAssetFromString(FSSymbol, input)
+func NewEOSAssetFromString(input string) (Asset, error) {
+	return NewFixedSymbolAssetFromString(EOSSymbol, input)
 }
 
 func NewREXAssetFromString(input string) (Asset, error) {
