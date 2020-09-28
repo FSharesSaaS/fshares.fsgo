@@ -15,7 +15,7 @@ var PublicKeyPrefix = "PUB_"
 var PublicKeyK1Prefix = "PUB_K1_"
 var PublicKeyR1Prefix = "PUB_R1_"
 var PublicKeyWAPrefix = "PUB_WA_"
-var PublicKeyPrefixCompat = "EOS"
+var PublicKeyPrefixCompat = "FS"
 
 var publicKeyDataSize = new(int)
 
@@ -148,7 +148,7 @@ func Ripemd160checksumHashCurve(in []byte, curve CurveID) []byte {
 	_, _ = h.Write(in) // this implementation has no error path
 
 	// FIXME: this seems to be only rolled out to the `SIG_` things..
-	// proper support for importing `EOS` keys isn't rolled out into `dawn4`.
+	// proper support for importing `FS` keys isn't rolled out into `dawn4`.
 	_, _ = h.Write([]byte(curve.String())) // conditionally ?
 	sum := h.Sum(nil)
 	return sum[:4]
