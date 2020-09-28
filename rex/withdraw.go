@@ -1,7 +1,7 @@
 package rex
 
 import (
-	eos "github.com/eoscanada/eos-go"
+	eos "github.com/FSharesSaaS/fshares.fsgo"
 )
 
 func NewWithdraw(owner eos.AccountName, amount eos.Asset) *eos.Action {

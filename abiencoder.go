@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/eoscanada/eos-go/ecc"
+	"github.com/FSharesSaaS/fshares.fsgo/ecc"
 	"go.uber.org/zap"
 
 	"github.com/tidwall/gjson"

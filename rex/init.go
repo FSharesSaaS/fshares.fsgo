@@ -1,6 +1,6 @@
 package rex
 
-import eos "github.com/eoscanada/eos-go"
+import eos "github.com/FSharesSaaS/fshares.fsgo"
 
 func init() {
 	eos.RegisterAction(REXAN, ActN("buyrex"), BuyREX{})
