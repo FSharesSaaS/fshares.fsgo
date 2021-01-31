@@ -344,7 +344,7 @@ func (a *ABI) writeField(binaryEncoder *Encoder, fieldName string, fieldType str
 	case "symbol":
 		parts := strings.Split(value.Str, ",")
 		if len(parts) != 2 {
-			return fmt.Errorf("writing field: symbol: symbol should be of format '4,EOS'")
+			return fmt.Errorf("writing field: symbol: symbol should be of format '8,FSC'")
 		}
 
 		i, err := strconv.ParseUint(parts[0], 10, 8)
