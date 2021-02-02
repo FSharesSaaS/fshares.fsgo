@@ -1,6 +1,6 @@
 package system
 
-import "github.com/eoscanada/eos-go"
+import "github.com/FSharesSaaS/fshares.fsgo"
 
 // NewDeleteAuth creates an action from the `eosio.system` contract
 // called `deleteauth`.

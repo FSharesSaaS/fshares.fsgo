@@ -1,7 +1,7 @@
 package system
 
 import (
-	eos "github.com/eoscanada/eos-go"
+	eos "github.com/FSharesSaaS/fshares.fsgo"
 )
 
 func NewBidname(bidder, newname eos.AccountName, bid eos.Asset) *eos.Action {

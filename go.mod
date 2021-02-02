@@ -1,4 +1,4 @@
-module github.com/eoscanada/eos-go
+module github.com/FSharesSaaS/fshares.fsgo
 
 go 1.13
 

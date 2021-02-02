@@ -1,7 +1,7 @@
 package system
 
 import (
-	eos "github.com/eoscanada/eos-go"
+	eos "github.com/FSharesSaaS/fshares.fsgo"
 )
 
 // NewRegProxy returns a `regproxy` action that lives on the

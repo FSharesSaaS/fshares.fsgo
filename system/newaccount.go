@@ -1,8 +1,8 @@
 package system
 
 import (
-	"github.com/eoscanada/eos-go"
-	"github.com/eoscanada/eos-go/ecc"
+	"github.com/FSharesSaaS/fshares.fsgo"
+	"github.com/FSharesSaaS/fshares.fsgo/ecc"
 )
 
 // NewNewAccount returns a `newaccount` action that lives on the

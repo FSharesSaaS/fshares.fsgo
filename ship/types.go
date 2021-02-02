@@ -1,8 +1,8 @@
 package ship
 
 import (
-	"github.com/eoscanada/eos-go"
-	"github.com/eoscanada/eos-go/ecc"
+	"github.com/FSharesSaaS/fshares.fsgo"
+	"github.com/FSharesSaaS/fshares.fsgo/ecc"
 )
 
 // State History Plugin Requests

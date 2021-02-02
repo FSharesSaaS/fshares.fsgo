@@ -16,7 +16,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/eoscanada/eos-go/ecc"
+	"github.com/FSharesSaaS/fshares.fsgo/ecc"
 )
 
 type API struct {

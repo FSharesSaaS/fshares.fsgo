@@ -4,7 +4,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/eoscanada/eos-go"
+	"github.com/FSharesSaaS/fshares.fsgo"
 	"github.com/pkg/errors"
 	"go.uber.org/zap"
 )
